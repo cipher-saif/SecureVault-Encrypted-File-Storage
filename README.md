@@ -300,6 +300,6 @@ The core takeaway is that security is architectural — it is not enough to encr
 
 <div align="center">
 
-**Built during Week 4 of the Syntecx Internship Program**<br>
+**Built during Week 4 of the Syntecx Internship Program.**<br>
 
 </div>
