@@ -1,15 +1,15 @@
 <div align="center">
 
 ```
-░██████╗███████╗░█████╗░██╗░░░██╗██████╗░███████╗██╗░░░██╗░█████╗░██╗░░░██╗██╗░░░░░████████╗░░░░░░░░░
-██╔════╝██╔════╝██╔══██╗██║░░░██║██╔══██╗██╔════╝██║░░░██║██╔══██╗██║░░░██║██║░░░░░╚══██╔══╝░░░░░░░░░
-╚█████╗░█████╗░░██║░░╚═╝██║░░░██║██████╔╝█████╗░░╚██╗░██╔╝███████║██║░░░██║██║░░░░░░░░██║░░░░░░░░░░░░
-░╚═══██╗██╔══╝░░██║░░██╗██║░░░██║██╔══██╗██╔══╝░░░╚████╔╝░██╔══██║██║░░░██║██║░░░░░░░░██║░░░░░░░░░░░░
-██████╔╝███████╗╚█████╔╝╚██████╔╝██║░░██║███████╗░░╚██╔╝░░██║░░██║╚██████╔╝███████╗░░░██║░░░██╗██╗██╗
-╚═════╝░╚══════╝░╚════╝░░╚═════╝░╚═╝░░╚═╝╚══════╝░░░╚═╝░░░╚═╝░░╚═╝░╚═════╝░╚══════╝░░░╚═╝░░░╚═╝╚═╝╚═╝
+░██████╗███████╗░█████╗░██╗░░░██╗██████╗░███████╗██╗░░░██╗░█████╗░██╗░░░██╗██╗░░░░░████████╗
+██╔════╝██╔════╝██╔══██╗██║░░░██║██╔══██╗██╔════╝██║░░░██║██╔══██╗██║░░░██║██║░░░░░╚══██╔══╝
+╚█████╗░█████╗░░██║░░╚═╝██║░░░██║██████╔╝█████╗░░╚██╗░██╔╝███████║██║░░░██║██║░░░░░░░░██║░░░
+░╚═══██╗██╔══╝░░██║░░██╗██║░░░██║██╔══██╗██╔══╝░░░╚████╔╝░██╔══██║██║░░░██║██║░░░░░░░░██║░░░
+██████╔╝███████╗╚█████╔╝╚██████╔╝██║░░██║███████╗░░╚██╔╝░░██║░░██║╚██████╔╝███████╗░░░██║░░░
+╚═════╝░╚══════╝░╚════╝░░╚═════╝░╚═╝░░╚═╝╚══════╝░░░╚═╝░░░╚═╝░░╚═╝░╚═════╝░╚══════╝░░░╚═╝░░░
 ```
 
-# SECURE FILE MANAGER.
+# SECUREVAULT
 
 ### Encrypted File Transfer & Secure Storage System
 
@@ -24,13 +24,7 @@
 
 ---
 
-<div align="center">
-
-═══════════════════════════════════════════════════════════════
-OVERVIEW
-═══════════════════════════════════════════════════════════════
-
-</div>
+## OVERVIEW
 
 SecureVault is a production-grade encrypted file transfer and storage system built with a zero-knowledge architecture. Files are encrypted entirely on the client side before transmission — the server stores only ciphertext and never has access to passwords or plaintext data.
 
@@ -40,13 +34,7 @@ The system implements AES-256-GCM authenticated encryption, HMAC-SHA256 integrit
 
 ---
 
-<div align="center">
-
-═══════════════════════════════════════════════════════════════
-OBJECTIVES
-═══════════════════════════════════════════════════════════════
-
-</div>
+## OBJECTIVES
 
 - Implement end-to-end AES-256-GCM encrypted file upload and download between client and server
 - Split large files into 1MB chunks with per-chunk authentication tags and unique nonces
@@ -58,13 +46,7 @@ OBJECTIVES
 
 ---
 
-<div align="center">
-
-═══════════════════════════════════════════════════════════════
-TOOLS & TECHNOLOGIES
-═══════════════════════════════════════════════════════════════
-
-</div>
+## TOOLS & TECHNOLOGIES
 
 <div align="center">
 
@@ -81,13 +63,7 @@ TOOLS & TECHNOLOGIES
 
 ---
 
-<div align="center">
-
-═══════════════════════════════════════════════════════════════
-PROJECT STRUCTURE
-═══════════════════════════════════════════════════════════════
-
-</div>
+## PROJECT STRUCTURE
 
 ```
 secure_vault/
@@ -122,13 +98,7 @@ secure_vault/
 
 ---
 
-<div align="center">
-
-═══════════════════════════════════════════════════════════════
-IMPLEMENTATION
-═══════════════════════════════════════════════════════════════
-
-</div>
+## IMPLEMENTATION
 
 ### Cryptographic Architecture
 
@@ -181,15 +151,7 @@ Files are deleted using a 3-pass overwrite (simplified DoD 5220.22-M) before the
 
 ---
 
-<div align="center">
-
-═══════════════════════════════════════════════════════════════
-SCREENSHOTS
-═══════════════════════════════════════════════════════════════
-
-</div>
-
-<br>
+## SCREENSHOTS
 
 <div align="center">
 
@@ -206,13 +168,7 @@ SCREENSHOTS
 
 ---
 
-<div align="center">
-
-═══════════════════════════════════════════════════════════════
-COMMANDS & USAGE
-═══════════════════════════════════════════════════════════════
-
-</div>
+## COMMANDS & USAGE
 
 **Install dependencies**
 ```bash
@@ -277,13 +233,7 @@ python tests/test_all.py
 
 ---
 
-<div align="center">
-
-═══════════════════════════════════════════════════════════════
-THREAT MODEL
-═══════════════════════════════════════════════════════════════
-
-</div>
+## THREAT MODEL
 
 | Threat | Severity | Mitigation |
 |:---|:---:|:---|
@@ -300,13 +250,7 @@ THREAT MODEL
 
 ---
 
-<div align="center">
-
-═══════════════════════════════════════════════════════════════
-CRYPTOGRAPHIC SPECIFICATIONS
-═══════════════════════════════════════════════════════════════
-
-</div>
+## CRYPTOGRAPHIC SPECIFICATIONS
 
 | Parameter | Value |
 |:---|:---|
@@ -326,13 +270,7 @@ CRYPTOGRAPHIC SPECIFICATIONS
 
 ---
 
-<div align="center">
-
-═══════════════════════════════════════════════════════════════
-TEST RESULTS
-═══════════════════════════════════════════════════════════════
-
-</div>
+## TEST RESULTS
 
 ```
 Ran 49 tests in 8.205s
@@ -350,17 +288,11 @@ Test coverage includes: cryptographic primitives, file encryptor roundtrips, sec
 
 ---
 
-<div align="center">
-
-═══════════════════════════════════════════════════════════════
-CONCLUSION
-═══════════════════════════════════════════════════════════════
-
-</div>
+## CONCLUSION
 
 SecureVault demonstrates that a zero-knowledge encrypted storage system can be built with clean architecture, real cryptographic rigor, and a production-ready interface. Every layer of the system — from key derivation to chunk authentication to secure deletion — was designed around concrete threat vectors rather than checkbox security.
 
-Key achievements across this project include implementing envelope encryption with per-file random keys, enforcing authenticate-then-decrypt order to prevent oracle attacks, building resume-capable chunked transfers with checkpoint persistence, and delivering a full test suite that validates security properties programmatically rather than by assumption.
+Key achievements include implementing envelope encryption with per-file random keys, enforcing authenticate-then-decrypt order to prevent oracle attacks, building resume-capable chunked transfers with checkpoint persistence, and delivering a full test suite that validates security properties programmatically rather than by assumption.
 
 The core takeaway is that security is architectural — it is not enough to encrypt data in isolation. Every component, from how passwords are handled to how files are deleted, must be considered part of the attack surface.
 
@@ -368,11 +300,7 @@ The core takeaway is that security is architectural — it is not enough to encr
 
 <div align="center">
 
----
-
-Developed as part of the **Syntecx Internship — Week 4**
+Developed as part of the **Syntecx Internship — Week 4**<br>
 Encrypted File Transfer & Secure File Storage System
-
----
 
 </div>
