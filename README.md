@@ -300,7 +300,6 @@ The core takeaway is that security is architectural — it is not enough to encr
 
 <div align="center">
 
-Developed as part of the **Syntecx Internship — Week 4**<br>
-Encrypted File Transfer & Secure File Storage System
+**Built during Week 4 of the Syntecx Internship Program**<br>
 
 </div>
